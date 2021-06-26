@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/white"/>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/clapperboard64" />
+    </item>
+    <item android:top="300dp" android:left="10dp" android:right="10dp">
+        <bitmap
+            android:tint="@color/black"
+            android:gravity="center"
+            android:src="@drawable/title"/>
+    </item>
+</layer-list>
