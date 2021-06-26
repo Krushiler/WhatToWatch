@@ -58,4 +58,8 @@ dependencies {
 
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+    //Glide
+    implementation "com.github.bumptech.glide:recyclerview-integration:4.4.0"
 }

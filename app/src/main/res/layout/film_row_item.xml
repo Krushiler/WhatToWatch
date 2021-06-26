@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_marginHorizontal="5dp"
+    android:background="@drawable/film_row_item_background"
     android:orientation="vertical">
     <TextView
         android:id="@+id/filmTitle"
@@ -12,17 +16,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
     <TextView
         android:layout_marginTop="10dp"
         android:id="@+id/filmDescription"
         android:layout_width="match_parent"
+        android:paddingHorizontal="10dp"
         android:text="Великолепное описание этого фильма sgm sdgmbsdf kgbdfm bklgsdf bgklsdf"
         android:textColor="@color/cardview_dark_background"
         android:textSize="19sp"
         android:layout_height="wrap_content" />
     <ImageView
+        android:layout_marginTop="5dp"
         android:id="@+id/filmImage"
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>

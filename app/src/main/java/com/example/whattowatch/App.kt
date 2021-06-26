@@ -1,6 +1,7 @@
 package com.example.whattowatch
 
 import android.app.Application
+import com.example.whattowatch.di.networkModule
 import com.example.whattowatch.di.viewModelsModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -13,7 +14,7 @@ class App : Application() {
             androidLogger()
             androidContext(this@App)
 
-            modules(viewModelsModule)
+            modules(viewModelsModule, networkModule)
         }
     }
 }
